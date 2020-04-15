@@ -32,13 +32,13 @@ ul.nostyle > li::before {
 		<ul>
 			<li><strong>Developing and evolving</strong> a Specification is currently difficult:
 				<ul>
-					<li>Complex specs spend years in CR without patent protection as details are refined prior to REC.
-					<li>Continuous development means tracking reality is a never-ending task. Declaring part of a spec as a REC by pulling out not-yet-normative features is obnoxious busywork to engineers who work on a continuous basis.
+					<li>Complex specs spend years in <abbr title="Candidate Recommendation">CR</abbr> without patent protection as details are refined prior to <abbr title="Recommendation">REC</abbr>.
+					<li>Continuous development means tracking reality is a never-ending task. Declaring part of a spec as a <abbr title="Recommendation">REC</abbr> by pulling out not-yet-normative features is obnoxious busywork to engineers who work on a continuous basis.
 				</ul>
 			<li><strong>Maintaining</strong> a Specification is currently difficult:
 				<ul>
 					<li>Bug fixes can appear at all times, and some may need to be addressed urgently (security fixes).
-					<li>Multiple transition requests and TR publications take extra time/resources, demotivating maintenance of RECs.
+					<li>Multiple transition requests and <abbr title="Technical Report">TR</abbr> publications take extra time/resources, demotivating maintenance of <abbr title="Recommendation">REC</abbr>s.
 				</ul>
 		</ul>
 </div>
@@ -74,9 +74,9 @@ ul.nostyle > li::before {
 <div class='slide'>
 	<h1>Design Principles</h1>
 	<ul>
-		<li>Contents of a REC must fulfill the <strong>same requirements</strong> as currently.
+		<li>Contents of a <abbr title="Recommendation">REC</abbr> must fulfill the <strong>same requirements</strong> as currently.
 		<li>Maintain single Process track for normative specifications.
-		<li>Enable WGs to consistently maintain <strong>intended implementation target as official publications</strong> on w3.org/TR
+		<li>Enable <abbr title="Working Group">WG</abbr>s to consistently maintain <strong>intended implementation target as official publications</strong> on w3.org/TR
 		<li>Wide review invites participation of the broader community, not just experts.
 		<li>Patent protection for early implementations and on continuously-developed specs.
 		<li>Improve on existing Process, don't rewrite from scratch.
@@ -110,7 +110,7 @@ ul.nostyle > li::before {
 		<li><strong>Updating the Patent Policy</strong>
 		<li><strong>Streamlining Candidate Recommendation updates</strong>
 			<ol type='a'>
-				<li>Allow easy CR "Drafts" between rigorous CR snapshots
+				<li>Allow easy <abbr title="Candidate Recommendation">CR</abbr> "Drafts" between rigorous <abbr title="Candidate Recommendation">CR</abbr> snapshots
 				<li>Automate routine Director’s approvals
 			</ol>
 		<li><strong>Streamlining Recommendation updates</strong>
@@ -125,24 +125,24 @@ ul.nostyle > li::before {
 <div class='slide'>
 	<h1>Proposed Fix: Patent Policy Improvements</h1>
 	<div class="note">
-		<p><strong>Problem:</strong> Patents licenses are only granted after REC, but implementations needed before REC.
-		<br><strong>Goal:</strong> Secure patent commitments earlier, without depending on meeting REC requirements.
-		<p><strong>Currently:</strong> We secure promises to license at each exclusion opportunity, but only licenses at REC.
+		<p><strong>Problem:</strong> Patents licenses are only granted after <abbr title="Recommendation">REC</abbr>, but implementations needed before <abbr title="Recommendation">REC</abbr>.
+		<br><strong>Goal:</strong> Secure patent commitments earlier, without depending on meeting <abbr title="Recommendation">REC</abbr> requirements.
+		<p><strong>Currently:</strong> We secure promises to license at each exclusion opportunity, but only licenses at <abbr title="Recommendation">REC</abbr>.
 		<p style='margin-bottom: 0'><strong>Proposal:</strong> Secure licensing, rather than just commitments to license:
 		<ul style='margin-top: 0'>
-			<li>on <strong>full specification</strong>, by all WG participants, at the end of each exclusion period from CR onwards
-			<li><del>on each <strong>contribution</strong>, by the contributor, at the time of contribution</del> <i>judged both unnecessary and too complicated by PSIG</i>
+			<li>on <strong>full specification</strong>, by all <abbr title="Working Group">WG</abbr> participants, at the end of each exclusion period from <abbr title="Candidate Recommendation">CR</abbr> onwards
+			<li><del>on each <strong>contribution</strong>, by the contributor, at the time of contribution</del> <i>judged both unnecessary and too complicated by <abbr title="the Patents and Standards Interest Group">PSIG</abbr></i>
 		</ul>
 		<p>See <a href=''>separate presentation on the Patent Policy (link TBD)</a>
 	</div>
 </div>
 
 <div class='slide'>
-	<h1>Proposed Fix: Streamlining Routine CR Republication Approvals</h1>
-	<p><strong>Problem:</strong> Republishing WDs is automatic given WG approval, but republishing CR requires Director’s approval. Most republication requests, however, are routine and don’t need much scrutiny.
+	<h1>Proposed Fix: Streamlining Routine <abbr title="Candidate Recommendation">CR</abbr> Republication Approvals</h1>
+	<p><strong>Problem:</strong> Republishing <abbr title="Working Draft">WD</abbr>s is automatic given <abbr title="Working Group">WG</abbr> approval, but republishing <abbr title="Candidate Recommendation">CR</abbr> requires Director’s approval. Most republication requests, however, are routine and don’t need much scrutiny.
 	<p style='margin-bottom: 0'><strong>Proposal:</strong> Allow automatic Director’s approval for straightforward cases, e.g.
 	<ul style='margin-top: 0'>
-		<li>Documented WG decision to publish
+		<li>Documented <abbr title="Working Group">WG</abbr> decision to publish
 		<li>All changes documented
 		<li>Horizontal Review groups have approved or waived their review
 		<li>Resolution of each issue was satisfactory to commenter(s)
@@ -151,15 +151,15 @@ ul.nostyle > li::before {
 </div>
 
 <div class='slide'>
-	<h1>Proposed Fix: Allow CR Drafts between CR Snapshots</h1>
+	<h1>Proposed Fix: Allow <abbr title="Candidate Recommendation">CR</abbr> Drafts between <abbr title="Candidate Recommendation">CR</abbr> Snapshots</h1>
 	<div class="note">
-		<p><strong>Currently:</strong> Updating a CR requires external verification of work and triggers a patent exclusion period. Accommodating these reviews slows updates. (Even if we speed up Director’s approvals, legal teams want infrequent patent reviews.)
-		<p><strong>Problem:</strong> CR publications lag, often significantly, behind WG’s current-work, reducing value and authority of W3C’s official publications.
+		<p><strong>Currently:</strong> Updating a <abbr title="Candidate Recommendation">CR</abbr> requires external verification of work and triggers a patent exclusion period. Accommodating these reviews slows updates. (Even if we speed up Director’s approvals, legal teams want infrequent patent reviews.)
+		<p><strong>Problem:</strong> <abbr title="Candidate Recommendation">CR</abbr> publications lag, often significantly, behind <abbr title="Working Group">WG</abbr>’s current-work, reducing value and authority of W3C’s official publications.
 		<p><strong>Goal:</strong> Address use case of Living Standards: always up-to-date, periodic patent commitment</p>
-		<p style='margin-bottom: 0'><strong>Proposal:</strong> Allow CR draft publications between CR snapshot publications:
+		<p style='margin-bottom: 0'><strong>Proposal:</strong> Allow <abbr title="Candidate Recommendation">CR</abbr> draft publications between <abbr title="Candidate Recommendation">CR</abbr> snapshot publications:
 		<ul style='margin-top: 0'>
 			<li><strong>CR Snapshot publication</strong> requires wide review, Director's approval, triggers patent review
-			<li><strong>CR Draft publication</strong> can be published by the WG without approval, no patent review
+			<li><strong>CR Draft publication</strong> can be published by the <abbr title="Working Group">WG</abbr> without approval, no patent review
 				<ul style='margin-top: 0; font-size: small'>
 					<li>Significant changes since last snapshot must be tracked to facilitate review
 					<li>Spec header adds links to previous Patent Review publication as well as previous [generic] publication.
@@ -171,32 +171,32 @@ ul.nostyle > li::before {
 <div class='slide'>
 	<h1>Proposed Fix: Modifying a Recommendation</h1>
 	<div class="note">
-		<p style='margin-bottom: 0'><strong>Problem:</strong> Fixing errors in REC requires returning entire spec to CR, re-doing Process from there.
+		<p style='margin-bottom: 0'><strong>Problem:</strong> Fixing errors in <abbr title="Recommendation">REC</abbr> requires returning entire spec to <abbr title="Candidate Recommendation">CR</abbr>, re-doing Process from there.
 		<ul style='margin-top: 0'>
-			<li>Confuses users (because the spec “loses” REC status).
-			<li>Excessive process &amp; publication work for WGs and Staff.
-			<li>Results in poorly-maintained RECs.
+			<li>Confuses users (because the spec “loses” <abbr title="Recommendation">REC</abbr> status).
+			<li>Excessive process &amp; publication work for <abbr title="Working Group">WG</abbr>s and Staff.
+			<li>Results in poorly-maintained <abbr title="Recommendation">REC</abbr>s.
 		</ul>
-		<p><strong>Goal:</strong> Make it easy to propose, review, and incorporate individual changes without destabilizing the entire REC.
+		<p><strong>Goal:</strong> Make it easy to propose, review, and incorporate individual changes without destabilizing the entire <abbr title="Recommendation">REC</abbr>.
 		<p style='margin-bottom: 0'><strong>Proposal:</strong> Create an errata proposal + approval process:
 		<ul style='margin-top: 0'>
-			<li><strong>Inline Errata -</strong> Allow WGs to republish annotated RECs, noting <strong>proposed changes</strong>.
-			<li><strong>Review of Proposed Changes -</strong> Combine transition-like checks for wide review, adequate implementation, plus AC and patent reviews on proposed REC with selected changes.
-			<li><strong>Updated REC -</strong> Reviewed changes can then be folded directly into an updated REC.
+			<li><strong>Inline Errata -</strong> Allow <abbr title="Working Group">WG</abbr>s to republish annotated <abbr title="Recommendation">REC</abbr>s, noting <strong>proposed changes</strong>.
+			<li><strong>Review of Proposed Changes -</strong> Combine transition-like checks for wide review, adequate implementation, plus AC and patent reviews on proposed <abbr title="Recommendation">REC</abbr> with selected changes.
+			<li><strong>Updated <abbr title="Recommendation">REC</abbr> -</strong> Reviewed changes can then be folded directly into an updated <abbr title="Recommendation">REC</abbr>.
 		</ul>
 	</div>
 </div>
 
 <div class='slide'>
-	<h1>Proposed Fix: Allow Adding Features to a REC</h1>
+	<h1>Proposed Fix: Allow Adding Features to a <abbr title="Recommendation">REC</abbr></h1>
 	<div class="note">
 		<ul>
 			<li>Some communities need a specification to represent a stable feature set.
 			<li><strong>Problem:</strong> Some communities need a specification to represent continuous development.
 		</ul>
-		<p><strong>Currently:</strong> REC specifications cannot accept new features; a new level of the technology must be specified starting with a new FPWD.
-		<p><strong>Proposal:</strong> Re-use REC maintenance process for incorporating <strong>proposed changes</strong> (above) to also allow incorporating <strong>proposed additions</strong>.
-		<p class='note'><strong>Note:</strong> Only allowed if stated in the specification prior to first publication as REC.
+		<p><strong>Currently:</strong> <abbr title="Recommendation">REC</abbr> specifications cannot accept new features; a new level of the technology must be specified starting with a new <abbr title="First Public Working Draft">FPWD</abbr>.
+		<p><strong>Proposal:</strong> Re-use <abbr title="Recommendation">REC</abbr> maintenance process for incorporating <strong>proposed changes</strong> (above) to also allow incorporating <strong>proposed additions</strong>.
+		<p class='note'><strong>Note:</strong> Only allowed if stated in the specification prior to first publication as <abbr title="Recommendation">REC</abbr>.
 	</div>
 </div>
 
@@ -206,7 +206,7 @@ ul.nostyle > li::before {
 		<li><strong>Updating the Patent Policy</strong>
 		<li><strong>Streamlining Candidate Recommendation updates</strong>
 			<ol type='a'>
-				<li>Allow easy CR "Drafts" between rigorous CR snapshots
+				<li>Allow easy <abbr title="Candidate Recommendation">CR</abbr> "Drafts" between rigorous <abbr title="Candidate Recommendation">CR</abbr> snapshots
 				<li>Automate routine Director’s approvals
 			</ol>
 		<li><strong>Streamlining Recommendation updates</strong>
@@ -225,9 +225,9 @@ ul.nostyle > li::before {
 	<h1>Impact on Working Groups</h1>
 	<ol>
 		<li>Allow easier maintenance paths for its Recommendations (changes and additions)
-		<li>Allow keeping CR publications in sync with latest edits, without waiting on Director approval
-		<li>Secure Patent Commitments earlier than REC:<br>
-		    Full specification commitments at the end of each exclusion period, starting at CR
+		<li>Allow keeping <abbr title="Candidate Recommendation">CR</abbr> publications in sync with latest edits, without waiting on Director approval
+		<li>Secure Patent Commitments earlier than <abbr title="Recommendation">REC</abbr>:<br>
+		    Full specification commitments at the end of each exclusion period, starting at <abbr title="Candidate Recommendation">CR</abbr>
 	</ol>
 </div>
 
@@ -238,7 +238,7 @@ ul.nostyle > li::before {
 			<ul>
 				<li>Formal patent / AC reviews rate-limited to approximately once per six months
 			</ul>
-			<li>Full specification commitments earlier than REC, at CR
+			<li>Full specification commitments earlier than <abbr title="Recommendation">REC</abbr>, at <abbr title="Candidate Recommendation">CR</abbr>
 	</ol>
 </div>
 
@@ -252,8 +252,8 @@ ul.nostyle > li::before {
 			</ul>
 		<li>Proposed fix continues to require demonstration of review at transitions/updates
 			<ul>
-				<li>Tied to CR Review Drafts and REC Call for Reviews (rate-limited already for legal).
-				<li>Patent commitments may stall if review is slow, or if WG has failed to coordinate with HR.
+				<li>Tied to <abbr title="Candidate Recommendation">CR</abbr> Review Drafts and <abbr title="Recommendation">REC</abbr> Call for Reviews (rate-limited already for legal).
+				<li>Patent commitments may stall if review is slow, or if <abbr title="Working Group">WG</abbr> has failed to coordinate with HR.
 			</ul>
 	</ol>
 </div>
@@ -261,8 +261,8 @@ ul.nostyle > li::before {
 <div class='slide'>
 	<h1>Impact on Implementers and Users</h1>
 	<ol>
-		<li>Early implementations get W3C RF commitments
-		<li>Official specifications (on <a href='https://www.w3.org/TR/'>w3.org</a>) reflect latest WG thinking.
+		<li>Early implementations get W3C <abbr title="Royalty-Free">RF</abbr> commitments
+		<li>Official specifications (on <a href='https://www.w3.org/TR/'>w3.org</a>) reflect latest <abbr title="Working Group">WG</abbr> thinking.
 		<li>Improved maintenance brings W3C Recommendations closer to reality.
 		<li>Granular reviews of proposed changes to Recommendations.
 	</ol>
