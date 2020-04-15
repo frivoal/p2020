@@ -1,15 +1,17 @@
-/* Style for the slides for TPAC 2019, to be used together with the
+/* Style for the slides for AC 2020, to be used together with the
    Shower script or the b6+ script. For usage instructions, see
-   https://www.w3.org/2019/Talks/TPAC/Templates/Overview.html
+   https://www.w3.org/2020/Talks/ac-slides/template/Overview.html
 
-   This is derived from AC-2019-slides.css, which is in turn an
-   improved version of "TPAC-2018-slides.css".
+   This is a variation of "TPAC-2019-slides.css". The logo in the
+   corner is no longer square, but includes the words "AC 2020". Cover
+   pages have a faint, stylized skyline of Seoul along the bottom.
 
-   TODO: Styles for tables? blockquotes? class=shout?
+   TODO: Styles for tables? blockquotes?
 
    A = 16/9  = aspect ratio
    N = 23    = height in rem (i.e., 21 lines + 2 x 1 rem padding)
    L = 5.5   = logo width in rem
+   H = 0.715 = logo aspect ratio (width/height)
    C = 2     = font size (and logo size) multiplier for cover pages
    w = N*A   = width of slide in rem
 
@@ -25,7 +27,7 @@
    |                   1em                 | LOGO  |
    +---------------------------------------+-------+
 
-   Created: 30 July 2019
+   Created: 17 March 2020
    Author: Bert Bos <bert@w3.org>
 */
 
@@ -57,53 +59,11 @@
   src: url(Gill_Sans_Italic.eot) format("embedded-opentype"),
     url(Gill_Sans_Italic.woff) format("woff")}
 
-/*
-@font-face {
-  font-family: My Gill Sans;
-  font-style: normal;
-  font-weight: 300;
-  src: url(Gill_Sans_Light.eot) format("embedded-opentype"),
-    url(Gill_Sans_Light.woff) format("woff")}
-
-@font-face {
-  font-family: My Gill Sans;
-  font-style: oblique;
-  font-weight: 300;
-  src: url(Gill_Sans_Light_Italic.eot) format("embedded-opentype"),
-    url(Gill_Sans_Light_Italic.woff) format("woff")}
-
-@font-face {
-  font-family: My Gill Sans;
-  font-style: normal;
-  font-weight: 600;
-  src: url(Gill_Sans_SemiBold.eot) format("embedded-opentype"),
-    url(Gill_Sans_SemiBold.woff) format("woff")}
-
-@font-face {
-  font-family: My Gill Sans;
-  font-style: oblique;
-  font-weight: 600;
-  src: url(Gill_Sans_SemiBold_Italic.eot) format("embedded-opentype"),
-    url(Gill_Sans_SemiBold_Italic.woff) format("woff")}
-
-@font-face {
-  font-family: My Gill Sans;
-  font-style: normal;
-  font-weight: 1000;
-  src: url(Gill_Sans_UltraBold.eot) format("embedded-opentype"),
-    url(Gill_Sans_UltraBold.woff) format("woff")}
-*/
-
 @font-face {
   font-family: LeagueGothicRegular;
   src: url(League_Gothic-webfont.woff) format('woff');
   font-weight: normal;
   font-style: normal}
-
-@font-face {
-  font-family: My Kaushan Script;
-  src: url(KaushanScript-Regular.woff) format("woff");
-}
 
 /* Common layout independent of slide mode */
 html {font: 1.156em/1.3 Gill Sans MT, Gill Sans, My Gill Sans, Liberation Sans,
@@ -114,16 +74,18 @@ body {background: url(linen.png) #595b60; counter-reset: slide; margin: 2em;
 address {font-family: Garamond Premier Pro, Garamond, serif}
 h1 {font: 2em/1.1 League Gothic, LeagueGothicRegular, sans-serif;
   letter-spacing: 0.03em; margin: 0 0 0.3em 0; text-transform: uppercase;
-  /*text-align: center;*/ color: #015ca4}
+  color: #015ca4}
 .full, .slide {width: 40.889rem; /*= w */ height: 23rem; /*= N */}
 .slide {color: black; box-shadow: 0 0.4rem 0.6rem #000; line-height: 1.6;
   padding: 1rem 6.5rem /*= L + 1 */ 1rem 1rem; position: relative;
   box-sizing: border-box; z-index: 0; display: inline-block;
   margin: 4rem 2rem 0 0; vertical-align: bottom; counter-increment: slide;
   border-radius: 0.5rem;
-  background: 36.389rem /*= w - L + 1 */ 18.5rem /*= N - L + 1 */
-    / 3.5rem /*= L - 2 */ auto url(W3C-circle.svg) no-repeat,
-    right / 5.5em /*= L */ auto url(fukuoka-port-tower.jpg) no-repeat, #fff}
+  text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white;
+  background: 36.389rem /*= w - L + 1 */ 16.308rem /*= N - L/H + 1 */
+    / 3.5rem /*= L - 2 */ auto url(AC-2020-slides-banner.svg) no-repeat,
+    bottom right / 5.5em /*= L */ 100%
+    linear-gradient(hsl(211,45%,25%), hsl(205,42%,92%)) no-repeat, #fff}
 .slide:target {outline: lime solid 0.5rem; outline-offset: 1rem}
 .slide.side {padding-left: 11.717rem /*= (w - 1 - (L + 1) - 1) * 30% + 2 */}
 .slide.side.right, .slide.side.r {padding-left: 1rem;
@@ -162,7 +124,8 @@ img {max-width: 100%}
 code, pre {font-family: Andale Mono, Courier, monospace}
 code {background: #eee; padding: 0.1em 0.3em; border-radius: 0.3em}
 sub, sup {line-height: 0.5}
-.slide pre {padding: 0 0.2em; background: black; color: hsl(120,100%,70%)}
+.slide pre {padding: 0 0.2em; background: black; color: hsl(120,100%,70%);
+  text-shadow: none}
 ol {padding-left: 2.5em}
 ul {padding-left: 1em}
 ol, ul {margin: 1em 0}
@@ -189,12 +152,18 @@ ul > li::before {content: "\25A0"; display: inline-block; width: 1em;
 /* Numbered lines in a PRE */
 pre.numbered {padding-left: 2em; overflow-y: hidden; position: relative}
 pre.numbered::before {color: #aaa; text-align: right; white-space: pre-line;
+  text-shadow: none;
   content: "1\A 2\A 3\A 4\A 5\A 6\A 7\A 8\A 9\A 10\A 11\A 12\A 13\A 14\A 15\A 16\A 17\A 18\A 19\A 20";
   position: absolute; top: 0; left: 0; width: 1.2em; font-family: serif;
-  border-right: thin solid; padding-right: 0.2em; /*background: white*/}
+  border-right: thin solid; padding-right: 0.2em}
 
 /* Cover pages */
 .slide.cover {font-size: 200% /*= C */; text-align: right;
+  background: bottom left / 70% auto url(skyline4.jpg) no-repeat,
+    33.639rem /*= w - C * L + 1 + L/2 */ 16.308rem /*= N - L/H + 1 */
+      / 3.5rem /*= L - 2 */ auto url(AC-2020-slides-banner.svg) no-repeat,
+    bottom right / 5.5em /*= L */ 100%
+      linear-gradient(hsl(211,45%,25%), hsl(205,42%,92%)) no-repeat, #fff;
   padding-right: 12rem /*= C * L + 1 */}
 .slide.cover address {position: absolute; bottom: 4.3478% /*= 1/N */;
   left: 2.4457% /*= 1/w */; right: 29.348% /*= (C * L + 1)/w */;
@@ -208,10 +177,8 @@ img.fit {object-fit: contain}
 
 /* Slide numbers in upper right corner */
 .slide::after {content: counter(slide); color: white; position: absolute;
-  line-height: 1; font-weight: bold; right: 1rem;
-  font-family: Kaushan Script, cursive;
-  top: 1rem; width: 4.5em /*= L - 1 */;
-  text-align: right}
+  top: 1rem; line-height: 1; font-weight: bold; right: 0; width: 5.5em /*= L */;
+  text-shadow: none; text-align: center}
 .slide.clear::after {content: none}
 
 /* Layout in slide mode (when body has class=full) */
@@ -231,7 +198,7 @@ img.fit {object-fit: contain}
 .full .next:not(.active) {visibility: hidden}
 
 /* A list as a tree structure with box-drawing characters */
-.tree {list-style: none; font: 1em/1 Courier New, monospace;
+.tree {list-style: none; font: 1em/1 monospace;
   white-space: nowrap; padding: 0.2em 0; overflow: auto}
 .tree code {background: none; font-family: Gill Sans MT, Gill Sans,
   My Gill Sans, Liberation Sans, sans-serif}
