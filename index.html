@@ -19,62 +19,45 @@ ul.nostyle > li::before {
 </div>
 
 <div class="slide cover clear" id='start'>
-	<h1>Continuous Standards Development</h1>
-	<address>Elika J Etemad<br>&amp;Florian Rivoal</address>
+	<h1>Process 2020</h1>
+	<address>Florian Rivoal (frivoal)<br>&amp;Elika J. Etemad (fantasai)</address>
 </div>
 
 <div class='slide'>
 	<h1>Background</h1>
-	<img src="https://www.w3.org/2018/10/Meetup/image/Lyon_Rhone_bkg.jpg"
-	     alt="A bridge over the Rhone in Lyon" class="cover">
 </div>
 
 <div class='slide'>
-	<h1>Where can the REC track be improved?</h1>
-	<div class="note">
-		<ol>
-			<li><strong>Maintaining and evolving</strong> a Specification is difficult:
-				<ol type='a'>
-					<li>Continuous development means tracking reality is a never-ending task. Declaring a spec as a REC by pulling out not-yet-normative features is burdensome.
-					<li>Bug fixes can appear at all times and may need to be addressed urgently (security fixes).
-					<li>Multiple transition requests and TR publications take extra time/resources.
-				</ol>
-			<li><strong>Patent Commitments</strong> are only secured at REC status, after implementation.
-			<li><strong>Registries</strong> aren’t well handled and are all over the place (RECs, NOTEs, wikis, web pages).
-		</ol>
-		<p>WHATWG’s Living Standards and the W3C / WHATWG collaboration agreement give insight on how to do continuous standard development while fulfilling requirements of the W3C REC track.
-    </div>
+	<h1>Motivation: Problems</h1>
+		<ul>
+			<li><strong>Developing and evolving</strong> a Specification is currently difficult:
+				<ul>
+					<li>Complex specs spend years in CR without patent protection as details are refined prior to REC.
+					<li>Continuous development means tracking reality is a never-ending task. Declaring part of a spec as a REC by pulling out not-yet-normative features is obnoxious busywork to engineers who work on a continuous basis.
+				</ul>
+			<li><strong>Maintaining</strong> a Specification is currently difficult:
+				<ul>
+					<li>Bug fixes can appear at all times, and some may need to be addressed urgently (security fixes).
+					<li>Multiple transition requests and TR publications take extra time/resources, demotivating maintenance of RECs.
+				</ul>
+		</ul>
+</div>
+
+<div class="slide">
+	<h1>Motivation: Symptoms</h1>
+		<ul>
+			<li><strong>Out-of-date specifications</strong> hinder interoperability and understanding, yet many W3C specifications are either unmaintained, or maintained in unofficial publications, because posting official updates through the current Process is too burdensome.
+			<li>Work is shifting <strong>out of W3C Working Groups</strong> to Community Groups and WHATWG because of these maintenance problems.
+		</ul>
 </div>
 
 <div class='slide'>
-	<h1>Use Cases</h1>
-	<ul type='none' class='nostyle' style='padding-left: 0'>
-		<li><strong>Vocabularies, Mappings:</strong> Most have little IPR, and grow in a natural incremental fashion.
-		<li><strong>Registries, Profiles:</strong> Mostly no IPR commitments, incremental updates
-		<li><strong>Maintenance:</strong> Bug-fixing of stable specifications with minimal overhead
-		<li><strong>Continuous Enhancement:</strong> Incremental development one feature at a time
-		<li><strong>Rapid Development:</strong> Security improvements
-		<li><strong>Tracking:</strong> Coordinating update with other living standards, e.g. Fetch integration
+	<h1>Constraints: W3C Values</h1>
+	<ul>
+		<li>W3C values <strong>wide review</strong>, <strong>implementation experience</strong>, <strong>consensus</strong>, and <strong>royalty-free licensing</strong> as a means of developing well thought-out, implementable, and relevant specifications.
+		<li>Key <strong>role of the Process</strong> is to ensure these values are deeply incorporated into W3C’s standardization process.
+		<li>W3C Process needs to be a supportive framework that solicits excellence from both <strong>veteran standards experts</strong> as well as <strong>new participants and communities</strong> in a wide variety of industries; therefore needs both flexibility and formal structure.
 	</ul>
-</div>
-
-<div class='slide'>
-	<h1>Motivating Examples</h1>
-	<p><a href='https://github.com/w3c/w3process/issues/79'>Issue #79</a> raised the following specs:
-	<ol style='font-size: small'>
-		<li>ARIA: ARIA Mappings
-		<li>SVG: Beyond SVG 2
-		<li>WebAppSec: CSP
-		<li>Web Performance: performance timeline, …
-		<li>Web Platform: WebIDL
-		<li>Dataset Exchange: Beyond DCat 1.1
-		<li>Timed Text: TTML Profile registry
-		<li>Distributed Tracing: Trace Context Protocol Registry
-		<li>WebRTC: registries
-		<li>WebApps: Manifest, etc.
-		<li>Service Workers: Beyond SW 1
-		<li>CSS: 100 specifications and counting...
-	</ol>
 </div>
 
 <div class='slide'>
@@ -89,14 +72,32 @@ ul.nostyle > li::before {
 </div>
 
 <div class='slide'>
-	<h1>Design Intentions</h1>
-	<p>The AB has <a href='https://lists.w3.org/Archives/Member/w3c-ac-members/2019JulSep/0027.html'>resolved</a> to address the continuous development on an accelerated basis and the W3C Process Community Group has explored several approaches.
+	<h1>Design Principles</h1>
 	<ul>
-		<li>Recommendation Track has problems, so let’s fix them!
-		<li>Incremental improvements as a set of ideas that could be adopted individually or together.
-		<li>Building on existing Process avoids undiscovered pitfalls of a brand new process track.
-		<li>Avoid confusing community with a different, parallel track.
+		<li>Contents of a REC must fulfill the <strong>same requirements</strong> as currently.
+		<li>Maintain single Process track for normative specifications.
+		<li>Enable WGs to consistently maintain <strong>intended implementation target as official publications</strong> on w3.org/TR
+		<li>Wide review invites participation of the broader community, not just experts.
+		<li>Patent protection for early implementations and on continuously-developed specs.
+		<li>Improve on existing Process, don't rewrite from scratch.
 	</ul>
+</div>
+
+<div class='slide'>
+	<h1>Motivating Examples</h1>
+	<ol style='font-size: small'>
+		<li>ARIA: ARIA Mappings
+		<li>SVG: Beyond SVG 2
+		<li>WebAppSec: CSP
+		<li>Web Performance: performance timeline, …
+		<li>Web Platform: WebIDL
+		<li>Dataset Exchange: Beyond DCat 1.1
+		<li>Timed Text: TTML Profile registry
+		<li>Distributed Tracing: Trace Context Protocol Registry
+		<li>WebApps: Manifest, etc.
+		<li>Service Workers: Beyond SW 1
+		<li>CSS: 100 specifications and counting...
+	</ol>
 </div>
 
 <div class='slide'>
@@ -109,15 +110,15 @@ ul.nostyle > li::before {
 		<li><strong>Updating the Patent Policy</strong>
 		<li><strong>Streamlining Candidate Recommendation updates</strong>
 			<ol type='a'>
-				<li>Automating routine Director’s approvals
-				<li>Decoupling CR Draft publications from Patent Review Drafts
+				<li>Allow easy CR "Drafts" between rigorous CR snapshots
+				<li>Automate routine Director’s approvals
 			</ol>
 		<li><strong>Streamlining Recommendation updates</strong>
 			<ol type='a'>
-				<li>Inline Errata + Review of Proposed Changes process
+				<li>Add amendment process for bug fixes
 				<li>Allow adding features to designated Recommendations
 			</ol>
-		<li><del>Dedicated Registry Process</del>
+		<li><del>Dedicated Registry Process</del> <i>Rescheduled for 2021!</i>
 	</ol>
 </div>
 
@@ -150,17 +151,17 @@ ul.nostyle > li::before {
 </div>
 
 <div class='slide'>
-	<h1>Proposed Fix: Decoupling CR Drafts from CR Snapshots</h1>
+	<h1>Proposed Fix: Allow CR Drafts between CR Snapshots</h1>
 	<div class="note">
 		<p><strong>Currently:</strong> Updating a CR requires external verification of work and triggers a patent exclusion period. Accommodating these reviews slows updates. (Even if we speed up Director’s approvals, legal teams want infrequent patent reviews.)
-		<p><strong>Problem:</strong> CR publications lag, often significantly, behind WG’s current-work, reducing value and authoritativeness of W3C’s official publications.
+		<p><strong>Problem:</strong> CR publications lag, often significantly, behind WG’s current-work, reducing value and authority of W3C’s official publications.
 		<p><strong>Goal:</strong> Address use case of Living Standards: always up-to-date, periodic patent commitment</p>
-		<p style='margin-bottom: 0'><strong>Proposal:</strong> Decouple draft publications from review publications:
+		<p style='margin-bottom: 0'><strong>Proposal:</strong> Allow CR draft publications between CR review snapshot publications:
 		<ul style='margin-top: 0'>
-			<li><strong>CR Snapshot publication</strong> requires wide review, Director's approval, trigger patent review
+			<li><strong>CR Snapshot publication</strong> requires wide review, Director's approval, triggers patent review
 			<li><strong>CR Draft pubication</strong> can be published by the WG without approval, no patent review
 				<ul style='margin-top: 0; font-size: small'>
-					<li>Changes since last Patent Review Draft must be tracked to facilitate review
+					<li>Significant changes since last snapshot must be tracked to facilitate review
 					<li>Spec header adds links to previous Patent Review publication as well as previous [generic] publication.
 				</ul>
 		</ul>
@@ -176,11 +177,11 @@ ul.nostyle > li::before {
 			<li>Excessive process &amp; publication work for WGs and Staff.
 			<li>Results in poorly-maintained RECs.
 		</ul>
-		<p><strong>Goal:</strong> Make it easy to propose, review, and incorporate changes without destabilizing the REC.
+		<p><strong>Goal:</strong> Make it easy to propose, review, and incorporate individual changes without destabilizing the entire REC.
 		<p style='margin-bottom: 0'><strong>Proposal:</strong> Create an errata proposal + approval process:
 		<ul style='margin-top: 0'>
 			<li><strong>Inline Errata -</strong> Allow WGs to republish annotated RECs, noting <strong>proposed changes</strong>.
-			<li><strong>Review of Proposed Changes -</strong> Combine transition-like checks for wide review, adequate implementation, plus AC and patent reviews on proposed REC with changes.
+			<li><strong>Review of Proposed Changes -</strong> Combine transition-like checks for wide review, adequate implementation, plus AC and patent reviews on proposed REC with selected changes.
 			<li><strong>Updated REC -</strong> Reviewed changes can then be folded directly into an updated REC.
 		</ul>
 	</div>
@@ -195,7 +196,7 @@ ul.nostyle > li::before {
 		</ul>
 		<p><strong>Currently:</strong> REC specifications cannot accept new features; a new level of the technology must be specified starting with a new FPWD.
 		<p><strong>Proposal:</strong> Re-use REC maintenance process for incorporating <strong>proposed changes</strong> (above) to also allow incorporating <strong>proposed additions</strong>.
-		<p class='note'><strong>Note:</strong> Only allowed if stated in the specification prior to publishing as REC.
+		<p class='note'><strong>Note:</strong> Only allowed if stated in the specification prior to first publication as REC.
 	</div>
 </div>
 
@@ -205,12 +206,12 @@ ul.nostyle > li::before {
 		<li><strong>Updating the Patent Policy</strong>
 		<li><strong>Streamlining Candidate Recommendation updates</strong>
 			<ol type='a'>
-				<li>Automating routine Director’s approvals
-				<li>Decoupling CR Draft publications from Patent Review Drafts
+				<li>Allow easy CR "Drafts" between rigorous CR snapshots
+				<li>Automate routine Director’s approvals
 			</ol>
 		<li><strong>Streamlining Recommendation updates</strong>
 			<ol type='a'>
-				<li>Inline Errata + Review of Proposed Changes process
+				<li>Add amendment process for bug fixes
 				<li>Allow adding features to designated Recommendations
 			</ol>
 	</ol>
