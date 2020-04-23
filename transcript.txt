@@ -1,5 +1,5 @@
 Hi! This is fantasai. Florian and I are going to talk today a bit about the W3C Process proposal for 2020.
-For those of you who don't know, the Process is the governing document for the standardization activites at W3C. The proposed update for 2020 represents some of the biggest changes to the Process in many years. The purpose of this presentation is to help you, the AC, understand the motivation behind these changes as well as the nature of the proposed changes themselves. The Process 2020 proposal is currently under informal review in the AC, so please study the materials and send us your questions and comments for consideration. We will be putting the revised Process forward for formal ratification by the AC after this comment period ends on May 31st.
+For those of you who don’t know, the Process is the governing document for the standardization activites at W3C. The proposed update for 2020 represents some of the biggest changes to the Process in many years. The purpose of this presentation is to help you, the AC, understand the motivation behind these changes as well as the nature of the proposed changes themselves. The Process 2020 proposal is currently under informal review in the AC, so please study the materials and send us your questions and comments for consideration. We will be putting the revised Process forward for formal ratification by the AC after this comment period ends on May 31st.
 
 [slide 3]
 
@@ -13,7 +13,7 @@ Compounding this, for the maintenance aspect, every change to a Recommendation r
 
 It is evident that the current W3C Process is not working as well as it ought to. We can see this in the number of out-of-date and unmaintained specifications, and in the way that work is shifting out of W3C Working Groups to other forums. Some projects have shifted out of W3C entirely, others are not formally adopted in a Working Group until implementations have already shipped, too late for significant feedback to be taken into account. And in many groups where work is still happening at W3C, the official specifications we publish on W3C’s own website are years out-of-date, with the active versions published elsewhere. This creates confusion regarding which publication implementers and reviewers should reference, and results in interoperability problems.
 
-Clearly, we need to fix the Process. But in so doing, we want to also make sure we don't lose the qualities that make it valuable in the first place.
+Clearly, we need to fix the Process. But in so doing, we want to also make sure we don’t lose the qualities that make it valuable in the first place.
 
 [slide 5]
 
@@ -21,7 +21,7 @@ W3C’s goal is to develop well thought-out, implementable, and relevant specifi
 
 It’s also important to note that the W3C community is very diverse. The Process needs to accommodate a wide variety of companies and industries, and to solicit excellence from both experienced standards experts in well-established Working Groups, as well as new participants and communities freshly started. To be a consistent, supportive framework, the Process needs both flexibility, and also formal structure. We can’t continue to demand that Working Groups conform to a process that does not suit their operational reality. But we also can’t just eliminiate all formalism in favor of informal cultural expectations and expect that to work.
 
-As Tim Berners-Lee likes to say, the Process is a tool. If it's not useful, it needs to be adjusted. So in 2020, we are going to adjust the Process.
+As Tim Berners-Lee likes to say, the Process is a tool. If it’s not useful, it needs to be adjusted. So in 2020, we are going to adjust the Process.
 
 [slide 6]
 
@@ -37,63 +37,63 @@ Our goals in adjusting this tool are:
 To implement these goals, we adopted the following design principles:
 First, the normative content of a W3C Recommendation must continue to fulfil the same requirements as currently. We are not proposing to reduce the value proposition of a Recommendation. It must still satisfy the existing requirements for wide review, AC review, implementation experience, and Director’s approval.
 
-Second, we resolved to make improvements to W3C's existing Recommendation Track for normative specifications, not to create a parallel track fulfilling the same purpose but under different process requirements and procedures.
+Second, we resolved to make improvements to W3C’s existing Recommendation Track for normative specifications, not to create a parallel track fulfilling the same purpose but under different process requirements and procedures.
 
-Third, we want to enable Working Groups to consistently maintain their intended implementation target as their officially published specification on w3.org, such that off-site Editor's Drafts are no longer needed in a public-facing role. If we do not enable this in practical terms, we have failed as a standards organization: our purpose is to publish relevant standards, if what we publish on our own website is not relevant, what are we even doing?
+Third, we want to enable Working Groups to consistently maintain their intended implementation target as their officially published specification on w3.org, such that off-site Editor’s Drafts are no longer needed in a public-facing role. If we do not enable this in practical terms, we have failed as a standards organization: our purpose is to publish relevant standards, if what we publish on our own website is not relevant, what are we even doing?
 
-Fourth, we want to make sure that “wide review” as required in the Process invites the participation of the broader community, not just internal experts. Many people refer to review by horizontal working groups such as Internationalization and the TAG as “wide review”; but this is only *part of* wide review. Wide review also includes the broader public; that is why W3C has always published it's work in progress for free on the Web. If relevant review materials are only ever available in the depths of a GitHub repository, they are effectively hidden, and will not receive a truly wide review. Therefore Process 2020 attempts to ensure that new material can be published *for* wide review, not just after “wide review”.
+Fourth, we want to make sure that “wide review” as required in the Process invites the participation of the broader community, not just internal experts. Many people refer to review by horizontal working groups such as Internationalization and the TAG as “wide review”; but this is only *part of* wide review. Wide review also includes the broader public; that is why W3C has always published it’s work in progress for free on the Web. If relevant review materials are only ever available in the depths of a GitHub repository, they are effectively hidden, and will not receive a truly wide review. Therefore Process 2020 attempts to ensure that new material can be published *for* wide review, not just after “wide review”.
 
 Fifth, we want to bring patent protection to early implementations and for continuously-developed specifications. Many W3C specs describe complex technology in extreme detail, and the refinement of these details takes place in the Candidate Recommendation phase, during which we invite implementations to help us figure them out and to prove the quality of the spec. We want these implementations to have the same protections as the later implementations that come after a specification has been ratified as a Recommendation.
 
-Lastly, we intend to improve on the existing Process, not to rewrite one from scratch. The W3C Process has served us well in many ways for over a quarter century; we don't want to lose the positive aspects of the existing Process we have in order to fix its deficiencies. Reforming the Process rather than replacing it reduces the risk of regressions, and also makes the transition to the new Process much easier. Every change we propose here is additive and independent: Process 2020 reduces the friction in many procedures and makes some new things possible, but existing ways of working will remain valid.
+Lastly, we intend to improve on the existing Process, not to rewrite one from scratch. The W3C Process has served us well in many ways for over a quarter century; we don’t want to lose the positive aspects of the existing Process we have in order to fix its deficiencies. Reforming the Process rather than replacing it reduces the risk of regressions, and also makes the transition to the new Process much easier. Every change we propose here is additive and independent: Process 2020 reduces the friction in many procedures and makes some new things possible, but existing ways of working will remain valid.
 
 I hope this helps you understand why the Process and the Patent Policy need to change, and why we are proposing the specific changes that we are. And now I will hand off to my indefatigable co-editor, Florian Rivoal, to explain the changes in this package of reforms.
 
 [slide 9]
 
-Hi, I'm Florian.
+Hi, I’m Florian.
 
-Now that we know why we'd doing this update, let's look at what it is that we're doing.
+Now that we know why we’d doing this update, let’s look at what it is that we’re doing.
 
 [slide 10]
 
-In order to address the problems fantasai just described, we're proposing a package of several improvements to the REC track. There is no strong coupling between them, so in theory we could choose to adopt only some parts of the proposal if we found something we didn't like about the rest. That said, the draft of Process 2020 that is currently available for review includes the whole set, as that is what we recommend adopting.
+In order to address the problems fantasai just described, we’re proposing a package of several improvements to the REC track. There is no strong coupling between them, so in theory we could choose to adopt only some parts of the proposal if we found something we didn’t like about the rest. That said, the draft of Process 2020 that is currently available for review includes the whole set, as that is what we recommend adopting.
 
-Before going into details about each part of the package, I want to note that there's one thing we had talked about previously which is not included: registries. In addition to improving how we work with specifications, the AB and Process CG also wanted to offer an official way of creating and maintaining registries. A combination of more disagreements than expected and limited participation means that this isn't ready yet. We very much hope to deliver this next year, so if this is of interest to you, I invite you to reach out to your favorite AB member, or to voice your opinion directly in the Process CG.
+Before going into details about each part of the package, I want to note that there’s one thing we had talked about previously which is not included: registries. In addition to improving how we work with specifications, the AB and Process CG also wanted to offer an official way of creating and maintaining registries. A combination of more disagreements than expected and limited participation means that this isn’t ready yet. We very much hope to deliver this next year, so if this is of interest to you, I invite you to reach out to your favorite AB member, or to voice your opinion directly in the Process CG.
 
 Now, onto what is in Process 2020.
 
 [slide 11]
 
-When a Working Group wants to publish an update to an existing Working Draft, it can do so as long as members of the Working Group agree to. To transition a specification to Candidate Recommendation, it is heavier: since there are a number of criteria that need to be fulfilled in order to be allowed to claim the CR maturity, there is an approval step, where the W3C Director or his delegates manually evaluate the specification to decide whether it is ready or not. This is a useful exercise in quality control: going through it—or preparing for it—routinely helps catching things that might have been overlooked. It's also useful as a way of teaching the less experienced groups what the expectations are. So this is good, and we're not changing that.
+When a Working Group wants to publish an update to an existing Working Draft, it can do so as long as members of the Working Group agree to. To transition a specification to Candidate Recommendation, it is heavier: since there are a number of criteria that need to be fulfilled in order to be allowed to claim the CR maturity, there is an approval step, where the W3C Director or his delegates manually evaluate the specification to decide whether it is ready or not. This is a useful exercise in quality control: going through it—or preparing for it—routinely helps catching things that might have been overlooked. It’s also useful as a way of teaching the less experienced groups what the expectations are. So this is good, and we’re not changing that.
 
-However, if a Working Group has already published a CR, and wants to update it, today the same level of scrutiny with the same manual verifications apply. But while some updates are significant enough to merit this, many are quite minor and uncontroversial, and in those cases, this Director's approval is unnecessarily heavy, and gets in the way of frequent publications.
+However, if a Working Group has already published a CR, and wants to update it, today the same level of scrutiny with the same manual verifications apply. But while some updates are significant enough to merit this, many are quite minor and uncontroversial, and in those cases, this Director’s approval is unnecessarily heavy, and gets in the way of frequent publications.
 
-This brings us to the first improvement of Process 2020: in simple non-controversial cases, the Working Group does not need to ask the for the Director's Approval before publishing an update to a CR. How do we define "simple and non-controversial"?: There must be a recorded group decision. All changes must be documented. Horizontal Review Groups must have either approved the document, or stated that they did not need to review it, for instance because when they did review an earlier CR, they determined it was out of scope for them. For example, maybe if a specification involves no human readable text, no symbolic visuals, no date, etc, the i18n group could declare that there's nothing there for them to review, and that they don't need to be asked about it again. Another criterion is that all changes that have been made must have been with the agreement of the person who raised the issue, otherwise it cannot be claimed to be a non-controversial update. And for the same reason, there must be no Formal Objection.
+This brings us to the first improvement of Process 2020: in simple non-controversial cases, the Working Group does not need to ask the for the Director’s Approval before publishing an update to a CR. How do we define “simple and non-controversial”?: There must be a recorded group decision. All changes must be documented. Horizontal Review Groups must have either approved the document, or stated that they did not need to review it, for instance because when they did review an earlier CR, they determined it was out of scope for them. For example, maybe if a specification involves no human readable text, no symbolic visuals, no date, etc, the i18n group could declare that there’s nothing there for them to review, and that they don’t need to be asked about it again. Another criterion is that all changes that have been made must have been with the agreement of the person who raised the issue, otherwise it cannot be claimed to be a non-controversial update. And for the same reason, there must be no Formal Objection.
 
 If all this is satisfied and documented, so that people can check after the fact, then the Working Group can go directly from preparation to publication, without involving the Director. And if not, or if you want to, you can still do it old fashioned way.
 
 [slide 12]
 
-Even with that improvement though, updating a CR remains heavy. Whether you involve the Director or not, there's still work in documenting that the specification satisfies the criteria, and it's not only the Director who needs to be involved. Publishing a proper CR also triggers a patent exclusion opportunity, requesting the members' legal team to review the document. While it is justified, it means Working Groups cannot be continuously re-publishing a CR for every tweak that they make. But if they cannot, what they do instead is publish the Editor's Draft elsewhere, and ask everybody to work off that instead, which is bad for the reasons fantasai mentioned.
+Even with that improvement though, updating a CR remains heavy. Whether you involve the Director or not, there’s still work in documenting that the specification satisfies the criteria, and it’s not only the Director who needs to be involved. Publishing a proper CR also triggers a patent exclusion opportunity, requesting the members’ legal team to review the document. While it is justified, it means Working Groups cannot be continuously re-publishing a CR for every tweak that they make. But if they cannot, what they do instead is publish the Editor’s Draft elsewhere, and ask everybody to work off that instead, which is bad for the reasons fantasai mentioned.
 
-Here is the second improvement that Process 2020 brings: between formal CR publications, Working Groups will now be allowed to republish, as frequently as they want, the latest version of their work on w3.org/TR, as a CR Draft. This requires no approval, and does not trigger a patent exclusion opportunity, making it as lightweight as publishing an Editor's Draft or a Working Draft. The flip side is that the Patent Policy remains tied to the less frequent and more formal CRs, now identified as CR snapshots, so these still need to be published periodically.
+Here is the second improvement that Process 2020 brings: between formal CR publications, Working Groups will now be allowed to republish, as frequently as they want, the latest version of their work on w3.org/TR, as a CR Draft. This requires no approval, and does not trigger a patent exclusion opportunity, making it as lightweight as publishing an Editor’s Draft or a Working Draft. The flip side is that the Patent Policy remains tied to the less frequent and more formal CRs, now identified as CR snapshots, so these still need to be published periodically.
 
 [slide 13]
 
-But that's only about the Candidate Recommendation stage. Eventually, as the specification and implementations mature, specifications become Recommendations. There too, maintaining an up-to-date official specification has been a problem. To make any normative change to a Recommendation, it must be taken back to CR, then to PR, then to REC again, with all the work that this entails.
+But that’s only about the Candidate Recommendation stage. Eventually, as the specification and implementations mature, specifications become Recommendations. There too, maintaining an up-to-date official specification has been a problem. To make any normative change to a Recommendation, it must be taken back to CR, then to PR, then to REC again, with all the work that this entails.
 
 Such Recommendations with fixes-in-Progress no longer appear as Recommendations on the W3C website, as they are now CRs, making it appear to the rest of the world that they are of a lesser quality, even though the opposite is true: maintaining a Recommendation makes it better, not worse.
 
-Also, most Recommendations are large enough that there is usually more than a single issue to address. But if only some of the fixes have enough implementation experience to fulfill the Recommendation criteria, the specification may be stuck in CR again for a long time. The group could decide to maintain multiple copies, one with the latest work, one with only the fixes that are mature enough to be eligible to REC, but that's a lot of busy-work.
+Also, most Recommendations are large enough that there is usually more than a single issue to address. But if only some of the fixes have enough implementation experience to fulfill the Recommendation criteria, the specification may be stuck in CR again for a long time. The group could decide to maintain multiple copies, one with the latest work, one with only the fixes that are mature enough to be eligible to REC, but that’s a lot of busy-work.
 
-What generally happens is that groups find that it's just too much of a hassle, and while they do keep an up-to-date Editor's Draft somewhere, the official Recommendation stays unchanged and becomes irrelevant at best, and often even distracting or confusing. Also, work that is only in the Editor's Draft is not covered by the Patent Policy.
+What generally happens is that groups find that it’s just too much of a hassle, and while they do keep an up-to-date Editor’s Draft somewhere, the official Recommendation stays unchanged and becomes irrelevant at best, and often even distracting or confusing. Also, work that is only in the Editor’s Draft is not covered by the Patent Policy.
 
 So the third improvement brought by Process 2020 enables Working Groups to maintain Recommendations in place.
 
 As it is already allowed to republish a Recommendation without Director approval and without going through earlier maturities in order to make editorial or non-normative changes, this can be used to maintain any proposed change directly in the Recommendation, as informative notes indicating how the group intends to change the Recommendation when the proposed change can satisfy the Recommendation criteria. A Recommendation, with these informative proposed changes, can be republished as often as necessary, without prior approval, eliminating the need for the latest work to live elsewhere.
 
-When some of these proposed changes become mature enough, Process 2020 offers a way to make them normative and be folded in the main text of the Recommendation. An AC review and patent review is called on the specification as it would be modified were these changes folded in, the checks that are expected during a transition, such as checking for wide review or adequate implementation, are done, and if they all go well, the Recommendation can be republished, with these previously "proposed" changes now formally folded into the normative text.
+When some of these proposed changes become mature enough, Process 2020 offers a way to make them normative and be folded in the main text of the Recommendation. An AC review and patent review is called on the specification as it would be modified were these changes folded in, the checks that are expected during a transition, such as checking for wide review or adequate implementation, are done, and if they all go well, the Recommendation can be republished, with these previously “proposed” changes now formally folded into the normative text.
 
 [slide 14]
 
@@ -101,9 +101,9 @@ Some groups, when they get to Recommendation and want to develop new features, c
 
 Until now, when a specification reached Recommendation, adding more features not allowed. So the only two possibilities were either to create new specifications, or not never go to Recommendation and stay in CR forever.
 
-The fourth improvement of Process 2020 is to allow the "proposed changes" process that was described in the previous slide to be used for new features as well as for bug fixes: annotate the proposed addition in place, in an informative section or note, update them in place as often as necessary to get them right, get review, get implementation experience, pass AC and legal review, fulfill all the transition criteria, and fold them in normatively.
+The fourth improvement of Process 2020 is to allow the “proposed changes” process that was described in the previous slide to be used for new features as well as for bug fixes: annotate the proposed addition in place, in an informative section or note, update them in place as often as necessary to get them right, get review, get implementation experience, pass AC and legal review, fulfill all the transition criteria, and fold them in normatively.
 
-There's one important note though: this will not be allowed in all Recommendations. Until now, Recommendations could not gain new features. Occasionally, this is considered useful, maybe a standard maintained by some other body normatively requires an implementation of a particular W3C Recommendation as part of their technology. Or maybe someone has a legal or contractual requirement to conform to a W3C specification. In such cases, unexpected additions of features to an existing Recommendation can be very unwelcome.
+There’s one important note though: this will not be allowed in all Recommendations. Until now, Recommendations could not gain new features. Occasionally, this is considered useful, maybe a standard maintained by some other body normatively requires an implementation of a particular W3C Recommendation as part of their technology. Or maybe someone has a legal or contractual requirement to conform to a W3C specification. In such cases, unexpected additions of features to an existing Recommendation can be very unwelcome.
 
 Because of this, feature additions to a Recommendation will only be permitted if the specification, prior to its first publication as a Recommendation, contained a statement saying that it expects to accept such feature additions.
 
@@ -111,7 +111,7 @@ Because of this, feature additions to a Recommendation will only be permitted if
 
 The final improvement is not actually really a change of the Process, but a change of the Patent Policy to go along with this proposed improved Process.
 
-Today, at each Candidate Recommendation, member companies are asked if they have patents they wish to exclude, and if they don't, they will promise to grant a license. But the actual licenses are only granted when the specification is issued as a Recommendation, which could be many years later, or sometimes never. And it's worth noting that we cannot get to Recommendation without having implementations first.
+Today, at each Candidate Recommendation, member companies are asked if they have patents they wish to exclude, and if they don’t, they will promise to grant a license. But the actual licenses are only granted when the specification is issued as a Recommendation, which could be many years later, or sometimes never. And it’s worth noting that we cannot get to Recommendation without having implementations first.
 
 The essence of the to the Patent Policy change is that instead of waiting until Recommendation, the licenses would be issued at the CR stage, immediately at the end of the exclusion opportunity.
 
@@ -121,7 +121,7 @@ Getting into exactly how this updated Patent Policy works is the topic of a dedi
 
 [slide 16]
 
-So that's it for Recommendation Track improvements in Process 2020. Updates to CRs without the asking for the Director's approval in simple cases, publishing CR Drafts in place between the formal CR snapshots, a enabling bug-fixing of RECs in place, a way to add new features to Recommendations that want it, and patent protection starting from CR rather than from REC.
+So that’s it for Recommendation Track improvements in Process 2020. Updates to CRs without the asking for the Director’s approval in simple cases, publishing CR Drafts in place between the formal CR snapshots, a enabling bug-fixing of RECs in place, a way to add new features to Recommendations that want it, and patent protection starting from CR rather than from REC.
 
 [slide 17]
 
@@ -129,7 +129,7 @@ In practice, what does it mean for you? That depends on your role.
 
 [slide 18]
 
-Members of working groups will find maintenance of Recommendations easier. They will be able to maintain the latest version of their specification on w3.org/TR without being blocked by Director approvals and without going back and forth between CR and REC, and they'll get patent protection sooner.
+Members of working groups will find maintenance of Recommendations easier. They will be able to maintain the latest version of their specification on w3.org/TR without being blocked by Director approvals and without going back and forth between CR and REC, and they’ll get patent protection sooner.
 
 [slide 19]
 
@@ -149,7 +149,7 @@ For the world at large, it means the W3C royalty-free patent licensing will kick
 
 [slide 22]
 
-I hope this shed light on what's coming. Now it's your turn.
+I hope this shed light on what’s coming. Now it’s your turn.
 
 Please review the draft of Process 2020 that has been circulated, discuss it within your companies or with other W3C members, and ask questions. Both editors of the Process Document, myself and fantasai, are happy to answer any question you may have, including scheduling calls with you or your team. En français si vous voulez. 日本語でも結構です。
 
