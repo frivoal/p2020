@@ -59,7 +59,7 @@ Now that we know why we’d doing this update, let’s look at what it is that w
 
 In order to address the problems fantasai just described, we’re proposing a package of several improvements to the REC track. There is no strong coupling between them, so in theory we could choose to adopt only some parts of the proposal if we found something we didn’t like about the rest. That said, the draft of Process 2020 that is currently available for review includes the whole set, as that is what we recommend adopting.
 
-Before going into details about each part of the package, I want to note that there’s one thing we had talked about previously which is not included: registries. In addition to improving how we work with specifications, the AB and Process CG also wanted to offer an official way of creating and maintaining registries. A combination of more disagreements than expected and limited participation means that this isn’t ready yet. We very much hope to deliver this next year, so if this is of interest to you, I invite you to reach out to your favorite AB member, or to voice your opinion directly in the Process CG.
+Before going into details about each part of the package, I want to note that there’s one thing we had talked about previously which is not included: registries. In addition to improving how we work with specifications, the AB and Process Community Group also wanted to offer an official way of creating and maintaining registries. A combination of more disagreements than expected and limited participation means that this isn’t ready yet. We very much hope to deliver this next year, so if this is of interest to you, I invite you to reach out to your favorite AB member, or to voice your opinion directly in the Process CG.
 
 Now, onto what is in Process 2020.
 
@@ -97,9 +97,9 @@ When some of these proposed changes become mature enough, Process 2020 offers a 
 
 [slide 14]
 
-Some groups, when they get to Recommendation and want to develop new features, create a new specification for that, and only maintain the previous Recommendation for bug fixes. Some other group find that separation constraining, and prefer to incrementally add features to a single specification, without creating separate version, or levels, or edition. Some groups even want to do a bit of both, using one strategy or the other for different documents.
+Some groups, when they get to Recommendation and want to develop new features, create a new specification for that, and only maintain the previous Recommendation for bug fixes. Some other groups find that separation constraining, and prefer to incrementally add features to a single specification, without creating separate versions, or levels, or editions. Some groups even want to do a bit of both, using one strategy or the other for different documents.
 
-Until now, when a specification reached Recommendation, adding more features not allowed. So the only two possibilities were either to create new specifications, or not never go to Recommendation and stay in CR forever.
+Until now, when a specification reached Recommendation, adding more features was not allowed. So the only two possibilities were either to create new specifications, or not never go to Recommendation and stay in CR forever.
 
 The fourth improvement of Process 2020 is to allow the “proposed changes” process that was described in the previous slide to be used for new features as well as for bug fixes: annotate the proposed addition in place, in an informative section or note, update them in place as often as necessary to get them right, get review, get implementation experience, pass AC and legal review, fulfill all the transition criteria, and fold them in normatively.
 
@@ -113,7 +113,7 @@ The final improvement is not actually really a change of the Process, but a chan
 
 Today, at each Candidate Recommendation, member companies are asked if they have patents they wish to exclude, and if they don’t, they will promise to grant a license. But the actual licenses are only granted when the specification is issued as a Recommendation, which could be many years later, or sometimes never. And it’s worth noting that we cannot get to Recommendation without having implementations first.
 
-The essence of the to the Patent Policy change is that instead of waiting until Recommendation, the licenses would be issued at the CR stage, immediately at the end of the exclusion opportunity.
+The essence of the Patent Policy change is that instead of waiting until Recommendation, the licenses would be issued at the CR stage, immediately at the end of the exclusion opportunity.
 
 One note in passing: we had previously mentioned another possible improvement to the Patent Policy regarding licenses on contributions, but we did not end up pursuing it after all.
 
@@ -129,7 +129,7 @@ In practice, what does it mean for you? That depends on your role.
 
 [slide 18]
 
-Members of working groups will find maintenance of Recommendations easier. They will be able to maintain the latest version of their specification on w3.org/TR without being blocked by Director approvals and without going back and forth between CR and REC, and they’ll get patent protection sooner.
+Members of Working Groups will find maintenance of Recommendations easier. They will be able to maintain the latest version of their specification on w3.org/TR without being blocked by Director approvals and without going back and forth between CR and REC, and they’ll get patent protection sooner.
 
 [slide 19]
 
@@ -145,13 +145,13 @@ While no particular new tooling is necessary for Process 2020, we expect that im
 
 [slide 21]
 
-For the world at large, it means the W3C royalty-free patent licensing will kick in earlier and cover early implementations. It means the official version of the specification on the W3C website will be the up-to-date version reflecting the latest thinking of the working group, and that specifications will be better maintained. Finally, as proposed corrections and additions can be found inline in the Recommendations, reviewing each such change, in context, will become easier.
+For the world at large, it means the W3C royalty-free patent licensing will kick in earlier and cover early implementations. It means the official version of the specification on the W3C website will be the up-to-date version reflecting the latest thinking of the Working Group, and that specifications will be better maintained. Finally, as proposed corrections and additions can be found inline in the Recommendations, reviewing each such change, in context, will become easier.
 
 [slide 22]
 
 I hope this shed light on what’s coming. Now it’s your turn.
 
-Please review the draft of Process 2020 that has been circulated, discuss it within your companies or with other W3C members, and ask questions. Both editors of the Process Document, myself and fantasai, are happy to answer any question you may have, including scheduling calls with you or your team. En français si vous voulez. 日本語でも結構です。
+Please review the draft of Process 2020 that has been circulated, discuss it within your company or with other W3C members, and ask questions. Both editors of the Process Document, myself and fantasai, are happy to answer any question you may have, including scheduling calls with you or your team. En français si vous voulez. 日本語でも結構です。
 
 There will also be a Q&A session in the virtual AC meeting.
 
